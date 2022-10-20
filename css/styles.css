@@ -6,29 +6,23 @@
     --black-color: #000000;
     --address-color: rgba(255, 255, 255, 0.6);
     --hero-background: #2F303A;
-    --second-section-and-portfolio-background: #F5F5F5;
-    --third-secion-and-portfoliobtn-background: #F5F4FA;
+    --third-section-and-portfoliobtn-background: #F5F4FA;
     --footer-background: #2F303A;
 }
 
 body {
-    background-color: var(--second-section-and-portfolio-background);
+    background-color: var(--third-section-and-portfoliobtn-background);
     color: var(--main-font-color);
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
+    font-weight: 400;
     letter-spacing: 0.03em;
 
 }
 
-header {
-    background-color: var(--white-color);
-}
-
 nav {
     font-weight: 500;
-    line-height: 1.14;
+    font-size: 14px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
 }
 
@@ -59,6 +53,9 @@ nav {
 
 .contact {
     color: var(--additional-font-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
 }
 
 .hero {
@@ -87,21 +84,18 @@ nav {
 }
 
 .feature-title {
-    line-height: 1.14;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 .feature-text {
     color: var(--additional-font-color);
-    font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
 }
 
-.team {
-    background-color: var(--third-secion-and-portfoliobtn-background);
-}
-
 .title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -116,7 +110,6 @@ nav {
 .team-text {
     color: var(--additional-font-color);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.18;
 }
 
@@ -130,7 +123,7 @@ footer {
 
 .street {
     color: var(--white-color);
-    font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
     font-style: normal;
 }
@@ -138,12 +131,16 @@ footer {
 .address {
     color: var(--address-color);
     font-style: normal;
-    font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
 }
 
+.address:hover,
+.address:focus {
+    color: var(--white-color);
+} 
+
 .secondary-button {
-    background-color: var(--third-secion-and-portfoliobtn-background);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -166,7 +163,6 @@ footer {
 
 .example-text {
     color: var(--additional-font-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
 }
